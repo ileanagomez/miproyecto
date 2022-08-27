@@ -1,0 +1,17 @@
+.body{
+    background-color: #90B77D;
+}
+.caja{
+    display: flex; justify-content: space-around;
+    margin-top: 50px;
+}
+.btn{
+    background-color: #90B77D;
+    transition: 1s;
+    border: #AC7D88 10px;
+}
+.btn:hover{
+    background-color: #AC7D88 ;
+    transition: 1s;
+    border: #90B77D 10px;
+}
