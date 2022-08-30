@@ -36,7 +36,7 @@
 .titulo{
     display: flex; justify-content: space-around;font-family: 'Silkscreen', cursive; margin-top: 20px;
 }
-.form-label{border-radius: 8px; width: 80%}
+.form-label{border-radius: 8px; width: 100%}
 .ingresar{
     font-family: 'Silkscreen', cursive;
 margin-left: 80px; margin-top: 20px; margin-bottom: 40px; margin-right: 80px;
@@ -53,4 +53,10 @@ margin-left: 80px; margin-top: 20px; margin-bottom: 40px; margin-right: 80px;
 }
 .btn-enter2{
     border-radius: 8px;
+}
+.mb-3{
+    margin-top: 15px;
+}
+.flex-end{
+    display: flex;justify-content: flex-end;
 }
