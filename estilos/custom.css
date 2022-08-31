@@ -1,12 +1,16 @@
 .body{
     background-color: #90B77D;
 }
+.main{
+    font-family: 'Silkscreen', cursive
+}
 .caja{
     display: flex; justify-content: space-around;
     margin-top: 50px;
-    margin-left: 60px; margin-right: 60px;
+    margin-left: 60px; margin-right: 60px; margin-bottom: 50px;
 }
 .btn{
+    display: flex; justify-content: flex-end;
     background-color: #90B77D;
     transition: 1s;
     border: black 0.4px solid
@@ -59,4 +63,19 @@ margin-left: 80px; margin-top: 20px; margin-bottom: 40px; margin-right: 80px;
 }
 .flex-end{
     display: flex;justify-content: flex-end;
+}
+.card-title{
+    font-family: 'Silkscreen', cursive;
+ }
+ .card-text{
+    font-family: 'Silkscreen', cursive;
+ }
+.btn-primary{
+    display: flex; justify-content: center;
+    background-color: black; font-family: 'Silkscreen', cursive;
+}
+.inicia-sesion{
+    font-family: 'Silkscreen', cursive; font-size: small;
+    display: flex; justify-content: flex-start;
+    margin-top: 30px; margin-bottom: 30px;
 }
